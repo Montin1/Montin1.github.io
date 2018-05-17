@@ -1,0 +1,92 @@
++<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+    <title>Monica Tinoco</title>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+        <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 0 ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+	width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	margin: 100px 50px 84px 250px;
+}
+</style>
+		</head>
+        
+        <body>
+		
+		<header>
+			<div class ="wrapper">
+			<h1 align="center">Contact</h1>
+			</div>
+        <div class= "logo">
+        	<a href="index.html"><img src="image/logo.png"></a>
+        		</div>
+			</header>
+		<nav>
+		<ul class= "Nav">
+        	<li><a href = "index.html">PORTFOLIO</a></li>
+			<!--<li><a href = "design.html">DESIGN</a></li>-->
+			<!--<li><a href = "photography.html">PHOTOGRAPHY</a></li>-->
+			<li><a href = "artiststatement.html">ARTIST STATEMENT</a></li>
+			<li><a href = "about.html">ABOUT</a></li>
+			<li><a href = "contact.html">CONTACT</a></li>   
+        </ul>
+			</nav>
+			<div class="container">
+  		<form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<br>
+    <label for="country">Country</label>
+    	<select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+<br>
+    <label for="subject">Subject</label>
+<br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+		</body>
+		
+			<footer>	
+				<p2>&copy; Monica Tinoco 2018</p2>
+				</footer>
+		</html>
